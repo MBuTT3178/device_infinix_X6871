@@ -1,0 +1,23 @@
+# Display
+debug.sf.frame_rate_multiple_threshold=60
+persist.sys.sf.disable_blurs=1
+ro.surface_flinger.supports_background_blur=1
+
+# USB
+vendor.usb.controller=11201000.usb0
+
+# Miscellaneous
+dalvik.vm.dex2oat64.enabled=true
+persist.arm64.memtag.app.com.android.nfc=off
+persist.arm64.memtag.app.com.android.se=off
+persist.arm64.memtag.app.com.google.android.bluetooth=off
+persist.arm64.memtag.process.system_server=off
+persist.service.adb.enable=1
+persist.service.debuggable=1
+ro.face.sense_service=true
+ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=1
+ro.system_ext.build.uuid=Ww8QluAiUc7SqW-SY2xa-580BbhvKdd0UQRAHp4MSkU
+ro.system_ext.build.version.sdk_full=37.0
+sys.usb.controller=11201000.usb0
+

@@ -1,0 +1,10 @@
+# USB
+vendor.usb.controller=11201000.usb0
+
+# Miscellaneous
+persist.service.adb.enable=1
+persist.service.debuggable=1
+ro.odm.build.uuid=Ww8QluAiUc7SqW-SY2xa-580BbhvKdd0UQRAHp4MSkU
+ro.odm.build.version.sdk_full=37.0
+sys.usb.controller=11201000.usb0
+
