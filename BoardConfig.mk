@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X6871
+DEVICE_PATH := device/infinix/X6871
 
 # A/B
 AB_OTA_UPDATER := true
@@ -35,7 +35,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6871
+TARGET_BOOTLOADER_BOARD_NAME := X6871
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -108,4 +108,4 @@ BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/infinix/Infinix-X6871/BoardConfigVendor.mk
+include vendor/infinix/X6871/BoardConfigVendor.mk

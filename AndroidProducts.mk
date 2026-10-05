@@ -4,9 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Infinix-X6871.mk
+    $(LOCAL_DIR)/infinity_X6871.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Infinix-X6871-user \
-    lineage_Infinix-X6871-userdebug \
-    lineage_Infinix-X6871-eng
+    infinity_X6871-user \
+    infinity_X6871-userdebug \
+    infinity_X6871-eng
