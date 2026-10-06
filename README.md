@@ -59,3 +59,12 @@ fastboot flash vendor_boot vendor_boot.img
 adb sideload Project_Infinity-X-4.0-X6871-*-GAPPS-UNOFFICIAL.zip
 ```
 4. Reboot system.
+
+
+---
+
+## Maintainer & Credits
+- **Maintainer**: [@MBuTT3178](https://github.com/MBuTT3178)
+- **Target OS**: Project Infinity-X 4.0 (Android 17 / Platform SDK 37)
+- **Base Firmware**: Infinix XOS 15 (Android 15 / `X6871-15.1.2.180SP05`)
+- **Release Downloads**: [GitHub Releases](https://github.com/MBuTT3178/device_infinix_X6871/releases/tag/v4.0-20261006) | [GoFile Mirror](https://gofile.io/d/qx0GOdVJ)
