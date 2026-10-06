@@ -25,13 +25,13 @@ The **Infinix GT 20 Pro** (codenamed `X6871` / `Infinix-X6871`) is a high-perfor
 | **Battery** | 5000 mAh, 45W wired fast charging |
 | **Rear Camera** | 108 MP (wide, OIS) + 2 MP (macro) + 2 MP (depth) |
 | **Front Camera** | 32 MP (wide) |
-| **Android Version** | Android 14 (Stock HiOS 14) / Android 15 (Infinity-X 4.0) |
+| **Android Version** | Android 15 (Stock XOS 15) / Android 17 (Infinity-X 4.0) |
 
 ---
 
 ## Build & Partition Architecture
 
-- **ROM Target**: Project Infinity-X 4.0 (`ix4`, Android 15 / Platform SDK 37)
+- **ROM Target**: Project Infinity-X 4.0 (`ix4`, Android 17 / Platform SDK 37)
 - **Filesystem Type**: Compressed **EROFS** (`lz4hc,9`) for all dynamic partitions (`system`, `vendor`, `product`, `system_ext`, `odm_dlkm`, `vendor_dlkm`).
 - **Super Partition Size**: `9,126,805,504` bytes (~9.1 GB).
 - **Kernel & Ramdisk**: GKI-compliant boot architecture with A/B slot support.
