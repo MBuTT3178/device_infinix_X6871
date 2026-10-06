@@ -9,14 +9,13 @@ DEVICE_PATH := device/infinix/X6871
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
+    vendor_boot \
     odm_dlkm \
     vendor_dlkm \
     system \
     product \
     system_ext \
-    vendor \
-    vbmeta_system \
-    vbmeta_vendor
+    vendor
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
