@@ -71,7 +71,6 @@ ro.build.uuid=Ww8QluAiUc7SqW-SY2xa-580BbhvKdd0UQRAHp4MSkU
 ro.build.version.sdk_full=37.0
 ro.cp_system_other_odex=1
 ro.dalvik.vm.native.bridge=0
-ro.infinity.device=X6871
 ro.llndk.api_level=202604
 ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
@@ -81,7 +80,6 @@ ro.system.build.version.sdk_full=37.0
 ro.vendor.mtk_cta_set=1
 ro.vendor.mtk_flv_playback_support=1
 ro.vendor.mtk_telephony_add_on_policy=0
-security.perf_harden=0
 sys.usb.controller=11201000.usb0
 vendor.mtk_thumbnail_optimization=true
 
