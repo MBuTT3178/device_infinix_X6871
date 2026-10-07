@@ -45,8 +45,10 @@ The **Infinix GT 20 Pro** (codenamed `X6871` / `Infinix-X6871`) is a high-perfor
 adb reboot bootloader
 ```
 
-### 2. Flash Boot and Vendor Boot Images
+### 2. Flash AVB Disabler and Companion Boot Images
+> **Warning**: Do NOT flash only the ROM zip! MediaTek Dimensity Little Kernel (LK) will halt in Red State if `vbmeta` is not disabled.
 ```bash
+fastboot flash --disable-verity --disable-verification vbmeta vbmeta.img
 fastboot flash boot boot.img
 fastboot flash vendor_boot vendor_boot.img
 ```
