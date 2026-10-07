@@ -7,9 +7,9 @@ DEVICE_PATH := device/infinix/X6871
 
 # A/B
 AB_OTA_UPDATER := true
+# Do NOT include vendor_boot in AB_OTA_PARTITIONS to prevent wiping stock MTK ramdisk
 AB_OTA_PARTITIONS += \
     boot \
-    vendor_boot \
     odm_dlkm \
     vendor_dlkm \
     system \
@@ -40,9 +40,12 @@ TARGET_NO_BOOTLOADER := true
 # Display
 TARGET_SCREEN_DENSITY := 392
 
-# Kernel
+# Kernel & MT6895 Memory Base
 BOARD_BOOT_HEADER_VERSION := 4
-BOARD_KERNEL_BASE := 0x3fff8000
+BOARD_KERNEL_BASE := 0x40000000
+BOARD_RAMDISK_OFFSET := 0x26f00000
+BOARD_KERNEL_TAGS_OFFSET := 0x07c80000
+BOARD_DTB_OFFSET := 0x07c80000
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
